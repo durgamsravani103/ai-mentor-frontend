@@ -1,16 +1,73 @@
-# React + Vite
+# AI Placement Mentor 🎯
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Placement Mentor is a full-stack AI-powered career guidance platform designed to help students prepare for placements.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Frontend:
+https://peppy-salamander-428568.netlify.app
 
-## React Compiler
+Backend API:
+https://ai-mentor-backend-8ubh.onrender.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+API Documentation:
+https://ai-mentor-backend-8ubh.onrender.com/docs
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User Registration & Login
+- Resume Analysis
+- AI Career Roadmap
+- Daily Tasks
+- AI Chat Assistant
+- Mock Interview
+- Interview History
+- Analytics Dashboard
+- User Profile
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React.js
+- Vite
+- JavaScript
+- Axios
+- React Router
+
+**Backend**
+- Python
+- FastAPI
+- SQLAlchemy
+- JWT Authentication
+- REST APIs
+
+**AI**
+- Google Gemini API
+
+**Database**
+- SQLite
+
+**Deployment**
+- Netlify
+- Render
+
+## 🏗️ Architecture
+
+React Frontend
+↓
+FastAPI REST API
+↓
+SQLAlchemy
+↓
+Database
+
+AI features are integrated through the Google Gemini API.
+
+## ⚙️ Local Setup
+
+### Backend
+
+```bash
+cd ai-mentor-backend
+pip install -r requirements.txt
+python -m uvicorn app.main:app --reload
